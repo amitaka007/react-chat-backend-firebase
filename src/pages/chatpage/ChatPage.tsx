@@ -19,7 +19,7 @@ useEffect(() =>{
         {loading ? <p>Loading....</p> : <div className='container flex-col md:flex-row'>
           <LeftSidebar />
           <ChatBox />
-          <RightSide />
+          {/* <RightSide /> */}
         </div>}
       </div>
 

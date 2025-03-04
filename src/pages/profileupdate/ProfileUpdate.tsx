@@ -169,6 +169,7 @@ const ProfileUpdate = () => {
           <img
             src={image ? URL.createObjectURL(image) : prevImage? prevImage : assests.logo_icon}
             alt="Logo"
+            className='w-96 h-96 p-10 rounded-2xl'
           />
         </div>
       </div>
