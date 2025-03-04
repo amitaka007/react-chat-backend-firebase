@@ -1,1 +1,1 @@
-# react-chat-backend-firebase
+# react-firebase-chat
