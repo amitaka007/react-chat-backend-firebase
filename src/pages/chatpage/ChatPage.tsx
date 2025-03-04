@@ -16,7 +16,7 @@ useEffect(() =>{
   return (
     <>
       <div>
-        {loading ? <p>Loading....</p> : <div className='container'>
+        {loading ? <p>Loading....</p> : <div className='container flex-col md:flex-row'>
           <LeftSidebar />
           <ChatBox />
           <RightSide />
